@@ -1,0 +1,170 @@
+img{
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-right: 30px;
+    float: left;
+
+}
+
+h1{
+    color: #08004b;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+}
+
+h2{
+    color: #08004b;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+}
+
+header{
+    color: #08004b;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+}
+
+h3{color: #08004b;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;}
+
+body{background-color: #daffd1;}
+
+fieldset{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    background-color: #bdd1de;
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+legend{
+    background-color: #a5f4a0;
+    color: black;
+    padding: 12px;
+    border-radius: 20px;
+    font-family: 'Martian Mono', monospace;
+    font-style: italic;
+}
+
+div#contenido{
+    background-color: #bff9b8;
+    border: 1px solid;
+    padding: 12px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+section{
+    font-weight: bold;
+}
+
+div#info{
+    display: none;
+}
+
+div#form{
+    display: none;
+}
+
+div#experiencia{
+    display: none;
+}
+
+div#apt{
+    display: none;
+}
+
+div#soft{
+    display: none;
+}
+
+div#idiom{
+    display: none;
+}
+
+footer#cont{
+    display: none;
+}
+
+button#boton1{
+    background-color: #62b85e;
+    border-radius: 10px;
+    color: white;
+ }
+    button#boton2{
+        background-color: #7e000f;
+        border-radius: 10px;
+        color: white;
+}
+
+button#boton3{
+    background-color: #62b85e;
+    border-radius: 10px;
+    color: white;
+ }
+    button#boton4{
+        background-color: #7e000f;
+        border-radius: 10px;
+        color: white;
+}
+
+button#boton5{
+    background-color: #62b85e;
+    border-radius: 10px;
+    color: white;
+ }
+    button#boton6{
+        background-color: #7e000f;
+        border-radius: 10px;
+        color: white;
+}
+
+button#boton7{
+    background-color: #62b85e;
+    border-radius: 10px;
+    color: white;
+ }
+    button#boton8{
+        background-color: #7e000f;
+        border-radius: 10px;
+        color: white;
+}
+
+button#boton9{
+    background-color: #62b85e;
+    border-radius: 10px;
+    color: white;
+ }
+    button#boton10{
+        background-color: #7e000f;
+        border-radius: 10px;
+        color: white;
+}
+
+button#boton11{
+    background-color: #62b85e;
+    border-radius: 10px;
+    color: white;
+ }
+    button#boton12{
+        background-color: #7e000f;
+        border-radius: 10px;
+        color: white;
+}
+
+button#boton13{
+    background-color: #62b85e;
+    border-radius: 10px;
+    color: white;
+ }
+    button#boton14{
+        background-color: #7e000f;
+        border-radius: 10px;
+        color: white;
+}
+
