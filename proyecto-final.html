@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="estilos-proyecto-final.css">
+    <script src="javascript-proyecto-final.js"></script>
+    <script src="https://kit.fontawesome.com/412ce5330f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <center>
+    <h1 id="titulo">Curriculum Vitae</h1>
+   </center> 
+ 
+   <div id="contenido">
+        <img src="CV.jpg" alt="Foto Carnet" height="150" width="150">
+        <h2>José Joaquín Juárez Jiménez</h2>
+        <h3>Hipólito Yrigoyen 1180 - 8º Piso C1086AAT - CABA - Arg.</h3>
+        <header>
+            <h3>Sobre Mi</h3>
+            <p>Originario del norte de Argentina e interesado en las computadoras desde jóven, soy un Analista en sistemas experto en la configuración de componentes de hardware y software. Optimizo los sistemas para satisfacer las necesidades del cliente, mejorar la colaboración y reforzar la seguridad. Deseando ofrecer la experiencia de más de 10 años de trabajo y seguir creciendo profesionalmente</p>
+        </header>
+        <button id="boton1" onclick="mostrargral();" i class="fa-solid fa-plus fa-fade"></i>Mostrar informacion general</button>
+
+         <div id="info">
+        <Fieldset>
+            <legend>Información General</legend>
+            <ul>
+                <li><section>Nombres: </section> José Joaquín</li>
+                <li><section>Apellido:</section> Juárez Jiménez</li>
+                <li><section>D.N.I:</section> 23.268.122</li>
+                <li><section>Fecha de nacimiento:</section>: 23/03/1973</li>
+            </ul>  
+        </Fieldset>
+        <button id="boton2" onclick="ocultargral();" i class="fa-solid fa-minus fa-fade"></i> Ocultar informacion general</button>
+          </div>
+          <button id="boton3" onclick="mostrarform();" i class="fa-solid fa-plus fa-fade"></i>Mostrar Formacion academica</button>  
+          <div id="form"> 
+        <fieldset id="formacion">
+            <legend>Formación Académica</legend>
+            <ul>
+                <li><section>Técnico universitario en desarrollo de software</section>
+                    <p>2018-2021</p>
+                    <p>Universidad Provincial de Ezeiza (UPE)</p>
+                </li>
+                <li><section>Ingeniería en Sistemas</section>
+                    <p>2010-2015</p>
+                    <p>Universidad Tecnológica Nacional</p>
+                </li>
+                <li><section>Analista de Sistemas</section>
+                    <p>2010-2013</p>
+                    <p>Universidad Tecnológica Nacional</p>
+                </li>
+            </ul>
+        </fieldset>
+        <button id="boton4" onclick="ocultarform();" i class="fa-solid fa-minus fa-fade"></i> Ocultar formacion academica</button>
+        </div>
+        <button id="boton5" onclick="mostrarexperiencia();" i class="fa-solid fa-plus fa-fade"></i>Mostrar Experiencia Laboral</button>  
+        <div id="experiencia">
+        <fieldset id="exp">
+            <legend>Experiencia Laboral</legend>
+            <ol>
+                <li><section>Analista de Sistemas</section>
+                    <p>The Whiteam - Valencia 11/2016 - Actualidad</p>
+                    <p>Participacion en procesos de correción de programas para la integración del sistema.</p>
+                </li>
+                <li><section>Analista de sistemas</section>
+                    <p>DAS Photonics - Valencia  08/2013 - 09/2016</p>
+                   <p>Experiencia en coordinación de equipos multidisciplinales e institucionales.</p>
+                </li>
+            </ol>
+        </fieldset>
+        <button id="boton6" onclick="ocultarexperiencia();" i class="fa-solid fa-minus fa-fade"></i> Ocultar Experiencia Laboral</button>
+        </div>
+        <button id="boton7" onclick="mostraraptitudes();" i class="fa-solid fa-plus fa-fade"></i>Mostrar Aptitudes</button>  
+        <div id="apt">
+        <fieldset id="aptitudes">
+            <legend>Aptitudes</legend>
+            <ol>
+                <li>Control de desarrollo de los Sistemas</li>
+                <li>Configuracion de bases de datos</li>
+                <li>Instalacion y validacion del sistema informatico</li>
+                <li>Generación de informes</li>
+                <li>Análisis de operaciones</li>
+                <li>Pensamiento crítico avanzado</li>
+            </ol>
+        </fieldset>
+        <button id="boton8" onclick="ocultaraptitudes();" i class="fa-solid fa-minus fa-fade"></i> Ocultar aptitudes</button>
+        </div>
+        <button id="boton9" onclick="mostrarsoft();" i class="fa-solid fa-plus fa-fade"></i>Mostrar software</button>
+        <div id="soft">
+        <fieldset id="software">
+            <legend>Software</legend>
+            <ul>
+                <li>Eclipse</li>
+                <li>Netbeans</li>
+                <li>Microsoft Projects</li>
+                <li>PHP, Java Y .NET</li>
+                <li>SQL Server</li>
+                <li>Oracle</li>
+            </ul>
+        </fieldset>
+        <button id="boton10" onclick="ocultarsoft();" i class="fa-solid fa-minus fa-fade"></i> Ocultar software</button>
+        </div>
+        <button id="boton11" onclick="mostraridiom();" i class="fa-solid fa-plus fa-fade"></i>Mostrar idiomas</button>
+        <div id="idiom">
+        <fieldset id="idiomas">
+            <legend>Idiomas</legend>
+            <ul>
+                <li><section>Español:</section> Idioma nativo</li>
+                <li><section>Inglés:</section> C1 Avanzado</li>
+                <li><section>Italiano:</section> A2  </li>
+            </ul>
+        </fieldset>
+        <button id="boton12" onclick="ocultaridiom();" i class="fa-solid fa-minus fa-fade"></i> Ocultar idiomas</button>
+        </div>
+        <button id="boton13" onclick="mostrarcont();" i class="fa-solid fa-plus fa-fade"></i>Mostrar informacion de contacto</button>
+    <footer id="cont">
+        <fieldset id="info">
+            <legend> Información de contacto</legend>
+            <ul>
+                <li><section>Email:</section> jose.juarez@ejemplo.com</li>
+                <li><section>Teléfono:</section> (729) 784-6533</li>
+                <li><section>WhatsApp:</section> (11) 9 4738-1067</li>
+            </ul>
+        </fieldset>
+        <button id="boton14" onclick="ocultarcont();" i class="fa-solid fa-minus fa-fade"></i> Ocultar Informacion de contacto</button>
+    </footer>
+    </div>    
+</body>
+</html>
